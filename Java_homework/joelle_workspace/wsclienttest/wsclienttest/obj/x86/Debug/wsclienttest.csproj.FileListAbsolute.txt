@@ -1,0 +1,14 @@
+D:\HOME\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.exe.config
+D:\HOME\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.exe
+D:\HOME\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.pdb
+D:\HOME\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HOME\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\wsclienttest.exe
+D:\HOME\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\wsclienttest.pdb
+D:\Java homework\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.exe.config
+D:\Java homework\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\wsclienttest.exe
+D:\Java homework\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\wsclienttest.pdb
+D:\Java_homework\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.exe.config
+D:\Java_homework\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\wsclienttest.exe
+D:\Java_homework\joelle_workspace\wsclienttest\wsclienttest\obj\x86\Debug\wsclienttest.pdb
+D:\Java_homework\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.exe
+D:\Java_homework\joelle_workspace\wsclienttest\wsclienttest\bin\Debug\wsclienttest.pdb

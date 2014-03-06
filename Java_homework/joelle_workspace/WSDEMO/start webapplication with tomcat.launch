@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<booleanAttribute key="com.mountainminds.eclemma.core.INPLACE_INSTRUMENTATION" value="false"/>
+<listAttribute key="com.mountainminds.eclemma.core.INSTRUMENTATION_PATHS"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/WSDEMO"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.launching.sourceLocator.JavaSourceLookupDirector"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;true&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;javaProject name=&amp;quot;WSDEMO&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.jdt.launching.sourceContainer.javaProject&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.hyades.trace.ui.ATTR_AUTO_FILTER_CRITERIA" value="false"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DATA_COLLECTOR" value="org.eclipse.tptp.trace.jvmti.jvmtiMechanism:org.eclipse.tptp.analysisType.jvmti.heap"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DESTINATION_FILE" value=""/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DESTINATION_MONITOR" value="DefaultMonitor"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DESTINATION_PROJECT" value="ProfileProject"/>
+<booleanAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILE_TO_FILE" value="false"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_SET" value="tptp-dummy-profiling-set-T510_01"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre17&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;D:/Java_homework/tomcat7/bin/bootstrap.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;D:/Java_homework/tomcat7/bin/commons-daemon.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;D:/Java_homework/tomcat7/bin/tomcat-juli.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.catalina.startup.Bootstrap"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-config &quot;D:\Java_homework\joelle_workspace\WSDEMO/server_tomcat.xml&quot; start"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="WSDEMO"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.home=&quot;D:\Java_homework\tomcat7&quot; -Djava.endorsed.dirs=&quot;D:\Java_homework\tomcat7/common/endorsed&quot; -Dcatalina.base=&quot;D:\Java_homework\tomcat7&quot; -Djava.io.tmpdir=&quot;D:\Java_homework\tomcat7/temp&quot; -Xms512M -Xmx1024M -Djava.library.path=&quot;D:\Java_homework\joelle_workspace\WSDEMO\WEB-INF\lib&quot; -XX:+HeapDumpOnOutOfMemoryError -XX:MaxPermSize=256m"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="d:\tmp"/>
+<stringAttribute key="org.eclipse.tptp.platform.instrumentation.ui.ATTR_INSTRUMENT_FILTER_SET" value="org.eclipse.tptp.platform.instrumentation.ui.es1196413802764"/>
+<stringAttribute key="org.eclipse.tptp.platform.instrumentation.ui.CURRENT_INSTRUMENT_POINT" value="org.eclipse.tptp.monitoring.instrumentation.jmxProbe"/>
+<listAttribute key="org.eclipse.tptp.platform.instrumentation.ui.SELECTED_INSTRUMENT_FILES"/>
+<booleanAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_EXEC_AUTO_POLLING" value="true"/>
+<booleanAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_EXEC_CPU_TIME" value="true"/>
+<booleanAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_EXEC_FLOW" value="false"/>
+<booleanAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_EXEC_MANUAL_POLLING" value="false"/>
+<booleanAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_EXEC_OBJ_ALLOC_SITE" value="true"/>
+<stringAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_FILTERSET_ID" value="org.eclipse.hyades.trace.ui.es1196413520769"/>
+<booleanAttribute key="org.eclipse.tptp.platform.jvmti.client.ATTR_HEAP_COLLECT_INSTANCE" value="true"/>
+</launchConfiguration>

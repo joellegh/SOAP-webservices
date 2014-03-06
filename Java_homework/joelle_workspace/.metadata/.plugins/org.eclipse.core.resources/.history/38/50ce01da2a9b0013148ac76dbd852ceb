@@ -1,0 +1,7 @@
+package wsdemo.cls.ws;
+
+import java.rmi.Remote;
+
+public class WS implements Remote {
+
+}

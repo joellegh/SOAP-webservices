@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;WSDEMO/server_tomcat_T510_01.xml&apos; to &apos;server_tomcat.xml&apos;" description="Rename resource &apos;server_tomcat_T510_01.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="server_tomcat_T510_01.xml" name="server_tomcat.xml" stamp="1393008771429" updateReferences="true"/>
+</session>

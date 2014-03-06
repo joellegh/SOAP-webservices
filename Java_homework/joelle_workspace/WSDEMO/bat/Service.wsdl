@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="urn:WS" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="urn:WS" xmlns:intf="urn:WS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.3
+Built on Oct 05, 2005 (05:23:37 EDT)-->
+
+   <wsdl:message name="addResponse">
+
+      <wsdl:part name="addReturn" type="xsd:int">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloRequest">
+
+   </wsdl:message>
+
+   <wsdl:message name="authenticateRequest">
+
+      <wsdl:part name="usercode" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="password" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloResponse">
+
+      <wsdl:part name="sayHelloReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="authenticateResponse">
+
+      <wsdl:part name="authenticateReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addRequest">
+
+      <wsdl:part name="n1" type="xsd:int">
+
+      </wsdl:part>
+
+      <wsdl:part name="n2" type="xsd:int">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="WS">
+
+      <wsdl:operation name="add" parameterOrder="n1 n2">
+
+         <wsdl:input message="impl:addRequest" name="addRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addResponse" name="addResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="authenticate" parameterOrder="usercode password">
+
+         <wsdl:input message="impl:authenticateRequest" name="authenticateRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:authenticateResponse" name="authenticateResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sayHello">
+
+         <wsdl:input message="impl:sayHelloRequest" name="sayHelloRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:sayHelloResponse" name="sayHelloResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="WSSoapBinding" type="impl:WS">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="add">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addRequest">
+
+            <wsdlsoap:body namespace="urn:WS" use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addResponse">
+
+            <wsdlsoap:body namespace="urn:WS" use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="authenticate">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="authenticateRequest">
+
+            <wsdlsoap:body namespace="urn:WS" use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="authenticateResponse">
+
+            <wsdlsoap:body namespace="urn:WS" use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sayHello">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="sayHelloRequest">
+
+            <wsdlsoap:body namespace="urn:WS" use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sayHelloResponse">
+
+            <wsdlsoap:body namespace="urn:WS" use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="WSService">
+
+      <wsdl:port binding="impl:WSSoapBinding" name="WS">
+
+         <wsdlsoap:address location="http://localhost:8080/WSDEMO/services/WS"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

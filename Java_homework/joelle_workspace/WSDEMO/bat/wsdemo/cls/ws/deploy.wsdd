@@ -1,0 +1,35 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from WSService WSDL service -->
+
+  <service name="WS" provider="java:RPC" style="rpc" use="literal">
+      <parameter name="wsdlTargetNamespace" value="urn:WS"/>
+      <parameter name="wsdlServiceElement" value="WSService"/>
+      <parameter name="wsdlServicePort" value="WS"/>
+      <parameter name="className" value="wsdemo.cls.ws.WSSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="WS"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="add" qname="operNS:add" xmlns:operNS="urn:WS" returnQName="addReturn" returnType="rtns:int" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="n1" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="n2" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="authenticate" qname="operNS:authenticate" xmlns:operNS="urn:WS" returnQName="authenticateReturn" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="usercode" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="password" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="sayHello" qname="operNS:sayHello" xmlns:operNS="urn:WS" returnQName="sayHelloReturn" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <parameter name="allowedMethods" value="authenticate add sayHello"/>
+
+  </service>
+</deployment>

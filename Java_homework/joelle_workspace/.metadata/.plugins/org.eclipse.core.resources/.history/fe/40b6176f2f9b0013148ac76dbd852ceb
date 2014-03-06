@@ -1,0 +1,10 @@
+package wsdemo.cls.ws;
+
+import java.rmi.Remote;
+
+public class WS implements Remote {
+
+	public String authenticate(String usercode, String password) {
+		return "ok";
+	}
+}

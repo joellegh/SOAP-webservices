@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <display-name>EverSuite</display-name>
+  <description>EverSuite</description>
+  <distributable/>
+  <welcome-file-list>  
+    <welcome-file>index.htm</welcome-file>  
+  </welcome-file-list>
+  
+  <!-- servlet>
+    <servlet-name>SRVEmp</servlet-name>
+    <servlet-class>es.srv.employee.SRVEmp</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>SRVEmp</servlet-name>
+    <url-pattern>/SRVEmp</url-pattern>
+  </servlet-mapping-->
+  
+</web-app>
